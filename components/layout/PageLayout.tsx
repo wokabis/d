@@ -43,12 +43,12 @@ export function PageLayout({ navigation, repoUrl, children }: PageLayoutProps) {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-950">
-      <header className="md:hidden sticky top-0 z-30 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 px-4 py-3">
+    <div className="min-h-screen bg-black dark:bg-black">
+      <header className="md:hidden sticky top-0 z-30 bg-black/80 backdrop-blur border-b border-[#333] px-4 py-3">
         <div className="flex items-center justify-between">
           <button
             onClick={toggleMobileMenu}
-            className="p-2 -ml-2 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors active:bg-gray-200 dark:active:bg-gray-700 touch-manipulation"
+            className="p-2 -ml-2 text-gray-300 hover:bg-[#111] rounded-md transition-colors active:bg-[#1a1a1a] touch-manipulation"
             aria-label="Toggle menu"
             aria-expanded={isMobileMenuOpen}
           >
@@ -77,16 +77,13 @@ export function PageLayout({ navigation, repoUrl, children }: PageLayoutProps) {
         <Sidebar navigation={navigation} repoUrl={repoUrl} />
 
         <main id="main-content" tabIndex={-1} className="flex-1 min-w-0 flex flex-col">
-          <div className="sticky top-0 z-20 bg-white dark:bg-gray-950">
+          <div className="sticky top-0 z-20 bg-black/80 backdrop-blur border-b border-[#333]">
             <TabBar />
             <NavigationButtons navigation={navigation} />
           </div>
 
           <div className="flex-1 overflow-y-auto">
-            {/* Wide enough to seat the table-of-contents rail beside the
-                article; the article itself stays measured by its own prose
-                width. */}
-            <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-12">
+            <div className="mx-auto max-w-7xl px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16">
               {children}
             </div>
           </div>

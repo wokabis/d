@@ -1,63 +1,61 @@
 /**
  * Theme CSS Custom Properties
- * Phase-inspired design system with Montserrat & Nunito Sans font pairing
- * Source: design-phase-dev skill + fonts.md selection
+ * Ultra-modern Vercel/Render-inspired design
+ * Fonts: Space Grotesk (headings) + Mulish (body) from fonts.md
  */
 
 :root {
-  /* Primary colors - Amber accent #f59e0b */
-  --color-primary: #f59e0b;
-  --color-primary-hover: #d97706;
+  /* Primary colors - Pure white accent (Vercel style) */
+  --color-primary: #ffffff;
+  --color-primary-hover: #e5e5e5;
 
-  /* Secondary colors - Emerald #10b981 */
-  --color-secondary: #10b981;
-  --color-secondary-hover: #059669;
+  /* Secondary colors - Subtle gray */
+  --color-secondary: #888888;
+  --color-secondary-hover: #aaaaaa;
 
   /* Background colors */
-  --color-background: #09090b;
+  --color-background: #000000;
 
   /* Text colors */
   --color-text: #ffffff;
-  --color-text-muted: #999999;
+  --color-text-muted: #888888;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #0f0f11;
+  --color-sidebar-bg: #000000;
   --color-sidebar-text: #ffffff;
-  --color-sidebar-hover: #1a1a1d;
-  --color-sidebar-active: #27272a;
+  --color-sidebar-hover: #111111;
+  --color-sidebar-active: #1a1a1a;
 
   /* Code block colors */
-  --color-code-bg: #1a1a1d;
+  --color-code-bg: #111111;
   --color-code-text: #ffffff;
-  --color-code-muted: #999999;
+  --color-code-muted: #888888;
 
   /* Border colors */
-  --color-border: #27272a;
+  --color-border: #333333;
 
-  /* Phase palette extras */
-  --color-accent-green: #10b981;
-  --color-accent-amber: #f59e0b;
-  --color-radius: 4px;
+  /* Vercel-style extras */
+  --color-accent-blue: #0070f3;
+  --color-radius: 6px;
   --color-radius-card: 8px;
+  --color-radius-lg: 12px;
 }
 
-/* Dark mode is the default */
 .dark {
-  --color-primary: #f59e0b;
-  --color-primary-hover: #d97706;
-  --color-secondary: #10b981;
-  --color-secondary-hover: #059669;
-  --color-background: #09090b;
+  --color-primary: #ffffff;
+  --color-primary-hover: #e5e5e5;
+  --color-secondary: #888888;
+  --color-secondary-hover: #aaaaaa;
+  --color-background: #000000;
   --color-text: #ffffff;
-  --color-text-muted: #999999;
-  --color-sidebar-bg: #0f0f11;
+  --color-text-muted: #888888;
+  --color-sidebar-bg: #000000;
   --color-sidebar-text: #ffffff;
-  --color-sidebar-hover: #1a1a1d;
-  --color-sidebar-active: #27272a;
-  --color-code-bg: #1a1a1d;
+  --color-sidebar-hover: #111111;
+  --color-sidebar-active: #1a1a1a;
+  --color-code-bg: #111111;
   --color-code-text: #ffffff;
-  --color-code-muted: #999999;
-  --color-border: #27272a;
-  --color-accent-green: #10b981;
-  --color-accent-amber: #f59e0b;
+  --color-code-muted: #888888;
+  --color-border: #333333;
+  --color-accent-blue: #0070f3;
 }
