@@ -1,64 +1,64 @@
 /**
  * Theme CSS Custom Properties
- * Enterprise-grade: Linear-inspired dark theme
- * Font: Inter (loaded via Google Fonts CDN in layout.tsx)
+ * Matches example.html palette: lavender bg, dark purple text, red accent, teal appbar
+ * Fonts: Cinzel (headings) + Fauna One (body)
  */
 
 :root {
-  /* Primary colors - Linear purple-blue accent */
-  --color-primary: #5e6ad2;
-  --color-primary-hover: #7c85e0;
+  /* Primary colors - Red accent #e74c3c */
+  --color-primary: #e74c3c;
+  --color-primary-hover: #c0392b;
 
-  /* Secondary colors */
-  --color-secondary: #8a8f98;
-  --color-secondary-hover: #a0a4ab;
+  /* Secondary colors - Teal #00796b */
+  --color-secondary: #00796b;
+  --color-secondary-hover: #00a08a;
 
-  /* Background colors - Linear dark */
-  --color-background: #08090a;
+  /* Background colors - Lavender #e7e0ef */
+  --color-background: #e7e0ef;
 
-  /* Text colors */
-  --color-text: #f7f8f8;
-  --color-text-muted: #8a8f98;
+  /* Text colors - Dark purple #2b2236 */
+  --color-text: #2b2236;
+  --color-text-muted: #8a8f96;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #0f1011;
-  --color-sidebar-text: #f7f8f8;
-  --color-sidebar-hover: #161719;
-  --color-sidebar-active: #1c1d1f;
+  --color-sidebar-bg: #dcd4e6;
+  --color-sidebar-text: #2b2236;
+  --color-sidebar-hover: #d0c6dd;
+  --color-sidebar-active: #c4b8d4;
 
   /* Code block colors */
-  --color-code-bg: #0f1011;
-  --color-code-text: #f7f8f8;
-  --color-code-muted: #8a8f98;
+  --color-code-bg: #dcd4e6;
+  --color-code-text: #2b2236;
+  --color-code-muted: #8a8f96;
 
   /* Border colors */
-  --color-border: #232326;
+  --color-border: #c0392b;
 
-  /* Enterprise extras */
-  --color-accent: #5e6ad2;
-  --color-surface: #0f1011;
-  --color-surface-elevated: #161719;
+  /* Accent colors */
+  --color-accent-green: #2ecc71;
+  --color-accent-red: #e74c3c;
+  --color-accent-teal: #00796b;
   --color-radius: 8px;
   --color-radius-card: 12px;
 }
 
 .dark {
-  --color-primary: #5e6ad2;
-  --color-primary-hover: #7c85e0;
-  --color-secondary: #8a8f98;
-  --color-secondary-hover: #a0a4ab;
-  --color-background: #08090a;
-  --color-text: #f7f8f8;
-  --color-text-muted: #8a8f98;
-  --color-sidebar-bg: #0f1011;
-  --color-sidebar-text: #f7f8f8;
-  --color-sidebar-hover: #161719;
-  --color-sidebar-active: #1c1d1f;
-  --color-code-bg: #0f1011;
-  --color-code-text: #f7f8f8;
-  --color-code-muted: #8a8f98;
-  --color-border: #232326;
-  --color-accent: #5e6ad2;
-  --color-surface: #0f1011;
-  --color-surface-elevated: #161719;
+  --color-primary: #e74c3c;
+  --color-primary-hover: #c0392b;
+  --color-secondary: #00796b;
+  --color-secondary-hover: #00a08a;
+  --color-background: #2b2236;
+  --color-text: #e7e0ef;
+  --color-text-muted: #8a8f96;
+  --color-sidebar-bg: #1f1829;
+  --color-sidebar-text: #e7e0ef;
+  --color-sidebar-hover: #2b2236;
+  --color-sidebar-active: #3a2f4a;
+  --color-code-bg: #1f1829;
+  --color-code-text: #e7e0ef;
+  --color-code-muted: #8a8f96;
+  --color-border: #c0392b;
+  --color-accent-green: #2ecc71;
+  --color-accent-red: #e74c3c;
+  --color-accent-teal: #00796b;
 }
