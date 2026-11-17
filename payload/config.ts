@@ -9,12 +9,11 @@ import { Payload } from '@/lib/payload/types';
  */
 export const payload: Payload = {
   global: {
-    title: 'My Wiki',
-    description: 'A documentation site built with eziwiki',
+    title: 'Wokabi Simon\'s Notes',
+    description: 'Welcome to capture, organize & share knowledge',
     favicon: '/favicon.svg',
-    baseUrl: 'https://example.com',
-
-    /**
+    baseUrl: 'https://wokabis.github.io/d',
+    /** 
      * 'path' gives readable, indexable URLs (/guides/writing).
      * 'hash' gives opaque ones (/a3f2e9d1-...), hiding the structure at the
      * cost of SEO and shareable links.
