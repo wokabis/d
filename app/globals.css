@@ -16,12 +16,9 @@
  */
 
 body {
-  /* SUITE used to sit between Pretendard and the system stack. Pretendard
-     covers Latin and Korean, so nothing ever reached it except the emoji in
-     section names — which it has no glyphs for either, and which the platform
-     emoji font renders. It was 274 kB nobody saw. */
+  /* Blinko design system: harmonyOS font, dark canvas #020817 */
   font-family:
-    'Pretendard',
+    'harmonyOS',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',

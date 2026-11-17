@@ -1,72 +1,65 @@
 /**
  * Theme CSS Custom Properties
- * Notion/Obsidian-inspired color palette with light and dark mode support
+ * Blinko-inspired color palette (dark mode first)
+ * Source: design-blinko-space skill
  */
 
 :root {
-  /* Primary colors - Blue accent for links and interactive elements */
-  --color-primary: #2563eb;
-  --color-primary-hover: #1d4ed8;
+  /* Primary colors - Yellow accent #fde047 */
+  --color-primary: #fde047;
+  --color-primary-hover: #facc15;
 
-  /* Secondary colors - Purple accent for highlights */
-  --color-secondary: #7c3aed;
-  --color-secondary-hover: #6d28d9;
+  /* Secondary colors */
+  --color-secondary: #facc15;
+  --color-secondary-hover: #fde047;
 
   /* Background colors */
-  --color-background: #ffffff;
+  --color-background: #020817;
 
   /* Text colors */
-  --color-text: #1f2937;
-  --color-text-muted: #6b7280;
+  --color-text: #f8fafc;
+  --color-text-muted: #999999;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #f9fafb;
-  --color-sidebar-text: #374151;
-  --color-sidebar-hover: #f3f4f6;
-  --color-sidebar-active: #e5e7eb;
+  --color-sidebar-bg: #000000;
+  --color-sidebar-text: #f8fafc;
+  --color-sidebar-hover: #09090b;
+  --color-sidebar-active: #1a1a1a;
 
   /* Code block colors */
-  --color-code-bg: #f3f4f6;
-  --color-code-text: #1f2937;
-  /* Secondary text inside a code block. Darker than --color-text-muted, which
-     reaches only 4.39:1 against the code background and so falls short of the
-     4.5:1 that the small type used for the language label and the copy button
-     needs. */
-  --color-code-muted: #4b5563;
+  --color-code-bg: #000000;
+  --color-code-text: #f8fafc;
+  --color-code-muted: #999999;
 
   /* Border colors */
-  --color-border: #e5e7eb;
+  --color-border: #09090b;
+
+  /* Blinko palette extras */
+  --color-bg-secondary: #000000;
+  --color-accent-green: #34d399;
+  --color-accent-yellow: #fcd34d;
+  --color-radius: 12px;
+  --color-radius-card: 16px;
 }
 
-/* Dark mode color scheme - using .dark class */
+/* Dark mode is the default; .dark keeps the same palette */
 .dark {
-  /* Primary colors - Lighter blue for better contrast */
-  --color-primary: #3b82f6;
-  --color-primary-hover: #60a5fa;
-
-  /* Secondary colors - Lighter purple */
-  --color-secondary: #8b5cf6;
-  --color-secondary-hover: #a78bfa;
-
-  /* Background colors */
-  --color-background: #111827;
-
-  /* Text colors */
-  --color-text: #f9fafb;
-  --color-text-muted: #9ca3af;
-
-  /* Sidebar colors */
-  --color-sidebar-bg: #1f2937;
-  --color-sidebar-text: #e5e7eb;
-  --color-sidebar-hover: #374151;
-  --color-sidebar-active: #4b5563;
-
-  /* Code block colors */
-  --color-code-bg: #374151;
-  --color-code-text: #f9fafb;
-  /* See the light theme: the muted grey reaches only 4.06:1 here. */
-  --color-code-muted: #d1d5db;
-
-  /* Border colors */
-  --color-border: #374151;
+  --color-primary: #fde047;
+  --color-primary-hover: #facc15;
+  --color-secondary: #facc15;
+  --color-secondary-hover: #fde047;
+  --color-background: #020817;
+  --color-text: #f8fafc;
+  --color-text-muted: #999999;
+  --color-sidebar-bg: #000000;
+  --color-sidebar-text: #f8fafc;
+  --color-sidebar-hover: #09090b;
+  --color-sidebar-active: #1a1a1a;
+  --color-code-bg: #000000;
+  --color-code-text: #f8fafc;
+  --color-code-muted: #999999;
+  --color-border: #09090b;
+  --color-bg-secondary: #000000;
+  --color-accent-green: #34d399;
+  --color-accent-yellow: #fcd34d;
 }
