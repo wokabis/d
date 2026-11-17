@@ -1,65 +1,63 @@
 /**
  * Theme CSS Custom Properties
- * Blinko-inspired color palette (dark mode first)
- * Source: design-blinko-space skill
+ * Phase-inspired design system with Montserrat & Nunito Sans font pairing
+ * Source: design-phase-dev skill + fonts.md selection
  */
 
 :root {
-  /* Primary colors - Yellow accent #fde047 */
-  --color-primary: #fde047;
-  --color-primary-hover: #facc15;
+  /* Primary colors - Amber accent #f59e0b */
+  --color-primary: #f59e0b;
+  --color-primary-hover: #d97706;
 
-  /* Secondary colors */
-  --color-secondary: #facc15;
-  --color-secondary-hover: #fde047;
+  /* Secondary colors - Emerald #10b981 */
+  --color-secondary: #10b981;
+  --color-secondary-hover: #059669;
 
   /* Background colors */
-  --color-background: #020817;
+  --color-background: #09090b;
 
   /* Text colors */
-  --color-text: #f8fafc;
+  --color-text: #ffffff;
   --color-text-muted: #999999;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #000000;
-  --color-sidebar-text: #f8fafc;
-  --color-sidebar-hover: #09090b;
-  --color-sidebar-active: #1a1a1a;
+  --color-sidebar-bg: #0f0f11;
+  --color-sidebar-text: #ffffff;
+  --color-sidebar-hover: #1a1a1d;
+  --color-sidebar-active: #27272a;
 
   /* Code block colors */
-  --color-code-bg: #000000;
-  --color-code-text: #f8fafc;
+  --color-code-bg: #1a1a1d;
+  --color-code-text: #ffffff;
   --color-code-muted: #999999;
 
   /* Border colors */
-  --color-border: #09090b;
+  --color-border: #27272a;
 
-  /* Blinko palette extras */
-  --color-bg-secondary: #000000;
-  --color-accent-green: #34d399;
-  --color-accent-yellow: #fcd34d;
-  --color-radius: 12px;
-  --color-radius-card: 16px;
+  /* Phase palette extras */
+  --color-accent-green: #10b981;
+  --color-accent-amber: #f59e0b;
+  --color-radius: 4px;
+  --color-radius-card: 8px;
 }
 
-/* Dark mode is the default; .dark keeps the same palette */
+/* Dark mode is the default */
 .dark {
-  --color-primary: #fde047;
-  --color-primary-hover: #facc15;
-  --color-secondary: #facc15;
-  --color-secondary-hover: #fde047;
-  --color-background: #020817;
-  --color-text: #f8fafc;
+  --color-primary: #f59e0b;
+  --color-primary-hover: #d97706;
+  --color-secondary: #10b981;
+  --color-secondary-hover: #059669;
+  --color-background: #09090b;
+  --color-text: #ffffff;
   --color-text-muted: #999999;
-  --color-sidebar-bg: #000000;
-  --color-sidebar-text: #f8fafc;
-  --color-sidebar-hover: #09090b;
-  --color-sidebar-active: #1a1a1a;
-  --color-code-bg: #000000;
-  --color-code-text: #f8fafc;
+  --color-sidebar-bg: #0f0f11;
+  --color-sidebar-text: #ffffff;
+  --color-sidebar-hover: #1a1a1d;
+  --color-sidebar-active: #27272a;
+  --color-code-bg: #1a1a1d;
+  --color-code-text: #ffffff;
   --color-code-muted: #999999;
-  --color-border: #09090b;
-  --color-bg-secondary: #000000;
-  --color-accent-green: #34d399;
-  --color-accent-yellow: #fcd34d;
+  --color-border: #27272a;
+  --color-accent-green: #10b981;
+  --color-accent-amber: #f59e0b;
 }
