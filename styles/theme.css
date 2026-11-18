@@ -1,66 +1,72 @@
 /**
  * Theme CSS Custom Properties
- * Facebook color palette
- * Font: Domine (single font for everything)
+ * Premium modern professional UI/UX palette with gradients
+ * Font: Josefin Slab (headings) + Josefin Sans (body)
  */
 
 :root {
-  /* Primary colors - Facebook blue #1877F2 */
-  --color-primary: #1877F2;
-  --color-primary-hover: #166fe5;
+  /* Primary colors - Purple-blue gradient accent */
+  --color-primary: #667eea;
+  --color-primary-hover: #5a6fd6;
+  --color-primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 
-  /* Secondary colors - Facebook green #42b72a */
-  --color-secondary: #42b72a;
-  --color-secondary-hover: #36a420;
+  /* Secondary colors - Pink accent */
+  --color-secondary: #f472b6;
+  --color-secondary-hover: #ec4899;
 
-  /* Background colors - Facebook gray #f0f2f5 */
-  --color-background: #f0f2f5;
+  /* Background colors - Deep navy */
+  --color-background: #0a0e27;
+  --color-background-gradient: linear-gradient(135deg, #0a0e27 0%, #1a1040 50%, #0a0e27 100%);
 
-  /* Text colors - Facebook dark #1c1e21 */
-  --color-text: #1c1e21;
-  --color-text-muted: #65676b;
+  /* Text colors */
+  --color-text: #e8eaf6;
+  --color-text-muted: #9fa8da;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #ffffff;
-  --color-sidebar-text: #1c1e21;
-  --color-sidebar-hover: #f0f2f5;
-  --color-sidebar-active: #e4e6eb;
+  --color-sidebar-bg: #111633;
+  --color-sidebar-text: #e8eaf6;
+  --color-sidebar-hover: #1a2048;
+  --color-sidebar-active: #252d5e;
 
   /* Code block colors */
-  --color-code-bg: #f0f2f5;
-  --color-code-text: #1c1e21;
-  --color-code-muted: #65676b;
+  --color-code-bg: #111633;
+  --color-code-text: #e8eaf6;
+  --color-code-muted: #9fa8da;
 
   /* Border colors */
-  --color-border: #dddfe2;
+  --color-border: #1e2448;
 
-  /* Facebook extras */
-  --color-accent-blue: #1877F2;
-  --color-accent-green: #42b72a;
-  --color-surface: #ffffff;
-  --color-surface-elevated: #ffffff;
-  --color-radius: 8px;
-  --color-radius-card: 8px;
+  /* Premium extras */
+  --color-accent: #667eea;
+  --color-accent-pink: #f472b6;
+  --color-surface: #111633;
+  --color-surface-elevated: #1a2048;
+  --color-glow: 0 0 20px rgba(102, 126, 234, 0.3);
+  --color-radius: 12px;
+  --color-radius-card: 16px;
 }
 
 .dark {
-  --color-primary: #1877F2;
-  --color-primary-hover: #166fe5;
-  --color-secondary: #42b72a;
-  --color-secondary-hover: #36a420;
-  --color-background: #18191a;
-  --color-text: #e4e6eb;
-  --color-text-muted: #b0b3b8;
-  --color-sidebar-bg: #242526;
-  --color-sidebar-text: #e4e6eb;
-  --color-sidebar-hover: #3a3b3c;
-  --color-sidebar-active: #3a3b3c;
-  --color-code-bg: #242526;
-  --color-code-text: #e4e6eb;
-  --color-code-muted: #b0b3b8;
-  --color-border: #3e4042;
-  --color-accent-blue: #1877F2;
-  --color-accent-green: #42b72a;
-  --color-surface: #242526;
-  --color-surface-elevated: #3a3b3c;
+  --color-primary: #667eea;
+  --color-primary-hover: #5a6fd6;
+  --color-primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --color-secondary: #f472b6;
+  --color-secondary-hover: #ec4899;
+  --color-background: #0a0e27;
+  --color-background-gradient: linear-gradient(135deg, #0a0e27 0%, #1a1040 50%, #0a0e27 100%);
+  --color-text: #e8eaf6;
+  --color-text-muted: #9fa8da;
+  --color-sidebar-bg: #111633;
+  --color-sidebar-text: #e8eaf6;
+  --color-sidebar-hover: #1a2048;
+  --color-sidebar-active: #252d5e;
+  --color-code-bg: #111633;
+  --color-code-text: #e8eaf6;
+  --color-code-muted: #9fa8da;
+  --color-border: #1e2448;
+  --color-accent: #667eea;
+  --color-accent-pink: #f472b6;
+  --color-surface: #111633;
+  --color-surface-elevated: #1a2048;
+  --color-glow: 0 0 20px rgba(102, 126, 234, 0.3);
 }
