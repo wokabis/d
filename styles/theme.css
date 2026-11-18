@@ -1,72 +1,72 @@
 /**
  * Theme CSS Custom Properties
  * Premium modern professional UI/UX palette with gradients
- * Font: Josefin Slab (headings) + Josefin Sans (body)
+ * Font: Outfit (Bold & Regular) for everything
  */
 
 :root {
-  /* Primary colors - Purple-blue gradient accent */
-  --color-primary: #667eea;
-  --color-primary-hover: #5a6fd6;
-  --color-primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* Primary colors - Cyan-blue gradient accent */
+  --color-primary: #06b6d4;
+  --color-primary-hover: #0891b2;
+  --color-primary-gradient: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
 
-  /* Secondary colors - Pink accent */
-  --color-secondary: #f472b6;
-  --color-secondary-hover: #ec4899;
+  /* Secondary colors - Amber accent */
+  --color-secondary: #f59e0b;
+  --color-secondary-hover: #d97706;
 
-  /* Background colors - Deep navy */
-  --color-background: #0a0e27;
-  --color-background-gradient: linear-gradient(135deg, #0a0e27 0%, #1a1040 50%, #0a0e27 100%);
+  /* Background colors - Slate dark */
+  --color-background: #0f172a;
+  --color-background-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
 
   /* Text colors */
-  --color-text: #e8eaf6;
-  --color-text-muted: #9fa8da;
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #111633;
-  --color-sidebar-text: #e8eaf6;
-  --color-sidebar-hover: #1a2048;
-  --color-sidebar-active: #252d5e;
+  --color-sidebar-bg: #1e293b;
+  --color-sidebar-text: #f1f5f9;
+  --color-sidebar-hover: #334155;
+  --color-sidebar-active: #475569;
 
   /* Code block colors */
-  --color-code-bg: #111633;
-  --color-code-text: #e8eaf6;
-  --color-code-muted: #9fa8da;
+  --color-code-bg: #1e293b;
+  --color-code-text: #f1f5f9;
+  --color-code-muted: #94a3b8;
 
   /* Border colors */
-  --color-border: #1e2448;
+  --color-border: #334155;
 
   /* Premium extras */
-  --color-accent: #667eea;
-  --color-accent-pink: #f472b6;
-  --color-surface: #111633;
-  --color-surface-elevated: #1a2048;
-  --color-glow: 0 0 20px rgba(102, 126, 234, 0.3);
+  --color-accent: #06b6d4;
+  --color-accent-amber: #f59e0b;
+  --color-surface: #1e293b;
+  --color-surface-elevated: #334155;
+  --color-glow: 0 0 20px rgba(6, 182, 212, 0.3);
   --color-radius: 12px;
   --color-radius-card: 16px;
 }
 
 .dark {
-  --color-primary: #667eea;
-  --color-primary-hover: #5a6fd6;
-  --color-primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --color-secondary: #f472b6;
-  --color-secondary-hover: #ec4899;
-  --color-background: #0a0e27;
-  --color-background-gradient: linear-gradient(135deg, #0a0e27 0%, #1a1040 50%, #0a0e27 100%);
-  --color-text: #e8eaf6;
-  --color-text-muted: #9fa8da;
-  --color-sidebar-bg: #111633;
-  --color-sidebar-text: #e8eaf6;
-  --color-sidebar-hover: #1a2048;
-  --color-sidebar-active: #252d5e;
-  --color-code-bg: #111633;
-  --color-code-text: #e8eaf6;
-  --color-code-muted: #9fa8da;
-  --color-border: #1e2448;
-  --color-accent: #667eea;
-  --color-accent-pink: #f472b6;
-  --color-surface: #111633;
-  --color-surface-elevated: #1a2048;
-  --color-glow: 0 0 20px rgba(102, 126, 234, 0.3);
+  --color-primary: #06b6d4;
+  --color-primary-hover: #0891b2;
+  --color-primary-gradient: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  --color-secondary: #f59e0b;
+  --color-secondary-hover: #d97706;
+  --color-background: #0f172a;
+  --color-background-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+  --color-sidebar-bg: #1e293b;
+  --color-sidebar-text: #f1f5f9;
+  --color-sidebar-hover: #334155;
+  --color-sidebar-active: #475569;
+  --color-code-bg: #1e293b;
+  --color-code-text: #f1f5f9;
+  --color-code-muted: #94a3b8;
+  --color-border: #334155;
+  --color-accent: #06b6d4;
+  --color-accent-amber: #f59e0b;
+  --color-surface: #1e293b;
+  --color-surface-elevated: #334155;
+  --color-glow: 0 0 20px rgba(6, 182, 212, 0.3);
 }
