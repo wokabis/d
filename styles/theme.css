@@ -1,72 +1,72 @@
 /**
  * Theme CSS Custom Properties
  * Premium modern professional UI/UX palette with gradients
- * Font: Cabin (Bold & Regular) for everything
+ * Font: Nunito (headings) + Nunito Sans (body)
  */
 
 :root {
-  /* Primary colors - Orange gradient accent */
-  --color-primary: #f97316;
-  --color-primary-hover: #ea580c;
-  --color-primary-gradient: linear-gradient(135deg, #f97316 0%, #dc2626 100%);
+  /* Primary colors - Emerald gradient accent */
+  --color-primary: #10b981;
+  --color-primary-hover: #059669;
+  --color-primary-gradient: linear-gradient(135deg, #10b981 0%, #0d9488 100%);
 
-  /* Secondary colors - Emerald accent */
-  --color-secondary: #10b981;
-  --color-secondary-hover: #059669;
+  /* Secondary colors - Amber accent */
+  --color-secondary: #fbbf24;
+  --color-secondary-hover: #f59e0b;
 
-  /* Background colors - Warm dark */
-  --color-background: #1a1612;
-  --color-background-gradient: linear-gradient(135deg, #1a1612 0%, #2a2318 50%, #1a1612 100%);
+  /* Background colors - Deep green */
+  --color-background: #0a1a14;
+  --color-background-gradient: linear-gradient(135deg, #0a1a14 0%, #112a1e 50%, #0a1a14 100%);
 
   /* Text colors */
-  --color-text: #f5f0e8;
-  --color-text-muted: #a89985;
+  --color-text: #e8f5f0;
+  --color-text-muted: #8bb8a8;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #2a2318;
-  --color-sidebar-text: #f5f0e8;
-  --color-sidebar-hover: #3d3428;
-  --color-sidebar-active: #4a3f30;
+  --color-sidebar-bg: #112a1e;
+  --color-sidebar-text: #e8f5f0;
+  --color-sidebar-hover: #1a3a2e;
+  --color-sidebar-active: #244a3a;
 
   /* Code block colors */
-  --color-code-bg: #2a2318;
-  --color-code-text: #f5f0e8;
-  --color-code-muted: #a89985;
+  --color-code-bg: #112a1e;
+  --color-code-text: #e8f5f0;
+  --color-code-muted: #8bb8a8;
 
   /* Border colors */
-  --color-border: #3d3428;
+  --color-border: #1a3a2e;
 
   /* Premium extras */
-  --color-accent: #f97316;
-  --color-accent-green: #10b981;
-  --color-surface: #2a2318;
-  --color-surface-elevated: #3d3428;
-  --color-glow: 0 0 20px rgba(249, 115, 22, 0.3);
+  --color-accent: #10b981;
+  --color-accent-amber: #fbbf24;
+  --color-surface: #112a1e;
+  --color-surface-elevated: #1a3a2e;
+  --color-glow: 0 0 20px rgba(16, 185, 129, 0.3);
   --color-radius: 12px;
   --color-radius-card: 16px;
 }
 
 .dark {
-  --color-primary: #f97316;
-  --color-primary-hover: #ea580c;
-  --color-primary-gradient: linear-gradient(135deg, #f97316 0%, #dc2626 100%);
-  --color-secondary: #10b981;
-  --color-secondary-hover: #059669;
-  --color-background: #1a1612;
-  --color-background-gradient: linear-gradient(135deg, #1a1612 0%, #2a2318 50%, #1a1612 100%);
-  --color-text: #f5f0e8;
-  --color-text-muted: #a89985;
-  --color-sidebar-bg: #2a2318;
-  --color-sidebar-text: #f5f0e8;
-  --color-sidebar-hover: #3d3428;
-  --color-sidebar-active: #4a3f30;
-  --color-code-bg: #2a2318;
-  --color-code-text: #f5f0e8;
-  --color-code-muted: #a89985;
-  --color-border: #3d3428;
-  --color-accent: #f97316;
-  --color-accent-green: #10b981;
-  --color-surface: #2a2318;
-  --color-surface-elevated: #3d3428;
-  --color-glow: 0 0 20px rgba(249, 115, 22, 0.3);
+  --color-primary: #10b981;
+  --color-primary-hover: #059669;
+  --color-primary-gradient: linear-gradient(135deg, #10b981 0%, #0d9488 100%);
+  --color-secondary: #fbbf24;
+  --color-secondary-hover: #f59e0b;
+  --color-background: #0a1a14;
+  --color-background-gradient: linear-gradient(135deg, #0a1a14 0%, #112a1e 50%, #0a1a14 100%);
+  --color-text: #e8f5f0;
+  --color-text-muted: #8bb8a8;
+  --color-sidebar-bg: #112a1e;
+  --color-sidebar-text: #e8f5f0;
+  --color-sidebar-hover: #1a3a2e;
+  --color-sidebar-active: #244a3a;
+  --color-code-bg: #112a1e;
+  --color-code-text: #e8f5f0;
+  --color-code-muted: #8bb8a8;
+  --color-border: #1a3a2e;
+  --color-accent: #10b981;
+  --color-accent-amber: #fbbf24;
+  --color-surface: #112a1e;
+  --color-surface-elevated: #1a3a2e;
+  --color-glow: 0 0 20px rgba(16, 185, 129, 0.3);
 }
