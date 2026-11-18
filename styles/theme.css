@@ -1,64 +1,66 @@
 /**
  * Theme CSS Custom Properties
- * Matches example.html palette: lavender bg, dark purple text, red accent, teal appbar
- * Fonts: Cinzel (headings) + Fauna One (body)
+ * Facebook color palette
+ * Font: Domine (single font for everything)
  */
 
 :root {
-  /* Primary colors - Red accent #e74c3c */
-  --color-primary: #e74c3c;
-  --color-primary-hover: #c0392b;
+  /* Primary colors - Facebook blue #1877F2 */
+  --color-primary: #1877F2;
+  --color-primary-hover: #166fe5;
 
-  /* Secondary colors - Teal #00796b */
-  --color-secondary: #00796b;
-  --color-secondary-hover: #00a08a;
+  /* Secondary colors - Facebook green #42b72a */
+  --color-secondary: #42b72a;
+  --color-secondary-hover: #36a420;
 
-  /* Background colors - Lavender #e7e0ef */
-  --color-background: #e7e0ef;
+  /* Background colors - Facebook gray #f0f2f5 */
+  --color-background: #f0f2f5;
 
-  /* Text colors - Dark purple #2b2236 */
-  --color-text: #2b2236;
-  --color-text-muted: #8a8f96;
+  /* Text colors - Facebook dark #1c1e21 */
+  --color-text: #1c1e21;
+  --color-text-muted: #65676b;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #dcd4e6;
-  --color-sidebar-text: #2b2236;
-  --color-sidebar-hover: #d0c6dd;
-  --color-sidebar-active: #c4b8d4;
+  --color-sidebar-bg: #ffffff;
+  --color-sidebar-text: #1c1e21;
+  --color-sidebar-hover: #f0f2f5;
+  --color-sidebar-active: #e4e6eb;
 
   /* Code block colors */
-  --color-code-bg: #dcd4e6;
-  --color-code-text: #2b2236;
-  --color-code-muted: #8a8f96;
+  --color-code-bg: #f0f2f5;
+  --color-code-text: #1c1e21;
+  --color-code-muted: #65676b;
 
   /* Border colors */
-  --color-border: #c0392b;
+  --color-border: #dddfe2;
 
-  /* Accent colors */
-  --color-accent-green: #2ecc71;
-  --color-accent-red: #e74c3c;
-  --color-accent-teal: #00796b;
+  /* Facebook extras */
+  --color-accent-blue: #1877F2;
+  --color-accent-green: #42b72a;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
   --color-radius: 8px;
-  --color-radius-card: 12px;
+  --color-radius-card: 8px;
 }
 
 .dark {
-  --color-primary: #e74c3c;
-  --color-primary-hover: #c0392b;
-  --color-secondary: #00796b;
-  --color-secondary-hover: #00a08a;
-  --color-background: #2b2236;
-  --color-text: #e7e0ef;
-  --color-text-muted: #8a8f96;
-  --color-sidebar-bg: #1f1829;
-  --color-sidebar-text: #e7e0ef;
-  --color-sidebar-hover: #2b2236;
-  --color-sidebar-active: #3a2f4a;
-  --color-code-bg: #1f1829;
-  --color-code-text: #e7e0ef;
-  --color-code-muted: #8a8f96;
-  --color-border: #c0392b;
-  --color-accent-green: #2ecc71;
-  --color-accent-red: #e74c3c;
-  --color-accent-teal: #00796b;
+  --color-primary: #1877F2;
+  --color-primary-hover: #166fe5;
+  --color-secondary: #42b72a;
+  --color-secondary-hover: #36a420;
+  --color-background: #18191a;
+  --color-text: #e4e6eb;
+  --color-text-muted: #b0b3b8;
+  --color-sidebar-bg: #242526;
+  --color-sidebar-text: #e4e6eb;
+  --color-sidebar-hover: #3a3b3c;
+  --color-sidebar-active: #3a3b3c;
+  --color-code-bg: #242526;
+  --color-code-text: #e4e6eb;
+  --color-code-muted: #b0b3b8;
+  --color-border: #3e4042;
+  --color-accent-blue: #1877F2;
+  --color-accent-green: #42b72a;
+  --color-surface: #242526;
+  --color-surface-elevated: #3a3b3c;
 }
