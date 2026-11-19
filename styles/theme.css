@@ -1,72 +1,72 @@
 /**
  * Theme CSS Custom Properties
  * Premium modern professional UI/UX palette with gradients
- * Font: Oswald (headings) + Roboto (body)
+ * Font: Josefin Sans (headings) + Open Sans (body)
  */
 
 :root {
-  /* Primary colors - Rose gradient accent */
-  --color-primary: #f43f5e;
-  --color-primary-hover: #e11d48;
-  --color-primary-gradient: linear-gradient(135deg, #f43f5e 0%, #e11d48 50%, #be123c 100%);
+  /* Primary colors - Indigo gradient accent */
+  --color-primary: #818cf8;
+  --color-primary-hover: #6366f1;
+  --color-primary-gradient: linear-gradient(135deg, #818cf8 0%, #4f46e5 50%, #7c3aed 100%);
 
-  /* Secondary colors - Violet accent */
-  --color-secondary: #a78bfa;
-  --color-secondary-hover: #8b5cf6;
+  /* Secondary colors - Mint accent */
+  --color-secondary: #6ee7b7;
+  --color-secondary-hover: #34d399;
 
-  /* Background colors - Rich dark */
-  --color-background: #14101a;
-  --color-background-gradient: linear-gradient(135deg, #14101a 0%, #1f1626 50%, #14101a 100%);
+  /* Background colors - Rich midnight */
+  --color-background: #0b1020;
+  --color-background-gradient: linear-gradient(135deg, #0b1020 0%, #121936 50%, #0b1020 100%);
 
   /* Text colors */
-  --color-text: #f5e8f0;
-  --color-text-muted: #b8a0ae;
+  --color-text: #e6e9f5;
+  --color-text-muted: #8b93b5;
 
   /* Sidebar colors */
-  --color-sidebar-bg: #1f1626;
-  --color-sidebar-text: #f5e8f0;
-  --color-sidebar-hover: #2a1e33;
-  --color-sidebar-active: #33244a;
+  --color-sidebar-bg: #121936;
+  --color-sidebar-text: #e6e9f5;
+  --color-sidebar-hover: #1a2246;
+  --color-sidebar-active: #232c5a;
 
   /* Code block colors */
-  --color-code-bg: #1f1626;
-  --color-code-text: #f5e8f0;
-  --color-code-muted: #b8a0ae;
+  --color-code-bg: #121936;
+  --color-code-text: #e6e9f5;
+  --color-code-muted: #8b93b5;
 
   /* Border colors */
-  --color-border: #2a1e33;
+  --color-border: #1a2246;
 
   /* Premium extras */
-  --color-accent: #f43f5e;
-  --color-accent-violet: #a78bfa;
-  --color-surface: #1f1626;
-  --color-surface-elevated: #2a1e33;
-  --color-glow: 0 0 20px rgba(244, 63, 94, 0.3);
+  --color-accent: #818cf8;
+  --color-accent-mint: #6ee7b7;
+  --color-surface: #121936;
+  --color-surface-elevated: #1a2246;
+  --color-glow: 0 0 20px rgba(129, 140, 248, 0.3);
   --color-radius: 12px;
   --color-radius-card: 16px;
 }
 
 .dark {
-  --color-primary: #f43f5e;
-  --color-primary-hover: #e11d48;
-  --color-primary-gradient: linear-gradient(135deg, #f43f5e 0%, #e11d48 50%, #be123c 100%);
-  --color-secondary: #a78bfa;
-  --color-secondary-hover: #8b5cf6;
-  --color-background: #14101a;
-  --color-background-gradient: linear-gradient(135deg, #14101a 0%, #1f1626 50%, #14101a 100%);
-  --color-text: #f5e8f0;
-  --color-text-muted: #b8a0ae;
-  --color-sidebar-bg: #1f1626;
-  --color-sidebar-text: #f5e8f0;
-  --color-sidebar-hover: #2a1e33;
-  --color-sidebar-active: #33244a;
-  --color-code-bg: #1f1626;
-  --color-code-text: #f5e8f0;
-  --color-code-muted: #b8a0ae;
-  --color-border: #2a1e33;
-  --color-accent: #f43f5e;
-  --color-accent-violet: #a78bfa;
-  --color-surface: #1f1626;
-  --color-surface-elevated: #2a1e33;
-  --color-glow: 0 0 20px rgba(244, 63, 94, 0.3);
+  --color-primary: #818cf8;
+  --color-primary-hover: #6366f1;
+  --color-primary-gradient: linear-gradient(135deg, #818cf8 0%, #4f46e5 50%, #7c3aed 100%);
+  --color-secondary: #6ee7b7;
+  --color-secondary-hover: #34d399;
+  --color-background: #0b1020;
+  --color-background-gradient: linear-gradient(135deg, #0b1020 0%, #121936 50%, #0b1020 100%);
+  --color-text: #e6e9f5;
+  --color-text-muted: #8b93b5;
+  --color-sidebar-bg: #121936;
+  --color-sidebar-text: #e6e9f5;
+  --color-sidebar-hover: #1a2246;
+  --color-sidebar-active: #232c5a;
+  --color-code-bg: #121936;
+  --color-code-text: #e6e9f5;
+  --color-code-muted: #8b93b5;
+  --color-border: #1a2246;
+  --color-accent: #818cf8;
+  --color-accent-mint: #6ee7b7;
+  --color-surface: #121936;
+  --color-surface-elevated: #1a2246;
+  --color-glow: 0 0 20px rgba(129, 140, 248, 0.3);
 }

@@ -16,9 +16,9 @@
  */
 
 body {
-  /* Oswald & Roboto */
+  /* Josefin Sans & Open Sans */
   font-family:
-    'Roboto',
+    'Open Sans',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 0.01em;
 }
