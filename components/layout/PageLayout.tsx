@@ -43,12 +43,12 @@ export function PageLayout({ navigation, repoUrl, children }: PageLayoutProps) {
   };
 
   return (
-    <div className="min-h-screen bg-[#0c1116]">
-      <header className="md:hidden sticky top-0 z-30 bg-[#131a22]/80 backdrop-blur border-b border-[#1f2937] px-4 py-3">
+    <div className="min-h-screen bg-[#02040a]">
+      <header className="md:hidden sticky top-0 z-30 bg-[#06080e]/80 backdrop-blur border-b border-[#111827] px-4 py-3">
         <div className="flex items-center justify-between">
           <button
             onClick={toggleMobileMenu}
-            className="p-2 -ml-2 text-[#e2e8f0] hover:bg-[#1c242e] rounded-md transition-colors active:bg-[#263140] touch-manipulation"
+            className="p-2 -ml-2 text-[#f8fafc] hover:bg-[#0c0f1a] rounded-md transition-colors active:bg-[#121626] touch-manipulation"
             aria-label="Toggle menu"
             aria-expanded={isMobileMenuOpen}
           >
@@ -77,7 +77,7 @@ export function PageLayout({ navigation, repoUrl, children }: PageLayoutProps) {
         <Sidebar navigation={navigation} repoUrl={repoUrl} />
 
         <main id="main-content" tabIndex={-1} className="flex-1 min-w-0 flex flex-col">
-          <div className="sticky top-0 z-20 bg-[#121936]/80 backdrop-blur border-b border-[#1a2246]">
+          <div className="sticky top-0 z-20 bg-[#06080e]/80 backdrop-blur border-b border-[#111827]">
             <TabBar />
             <NavigationButtons navigation={navigation} />
           </div>
