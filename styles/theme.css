@@ -1,42 +1,42 @@
 /**
  * Theme CSS Custom Properties
  * Premium modern professional UI/UX palette with gradients
- * Font: Libre Baskerville (headings) + Source Sans Pro (body)
+ * Font: Roboto Condensed (headings) + Roboto (body)
  *
- * Editorial dark palette. Each typography role owns a distinct colour/gradient:
- *   headings -> gold/bronze/ivory gradient
- *   bold     -> gold
- *   italic   -> sage green
- *   paragraph-> warm ivory
- *   link     -> sky blue
+ * Typography roles each own a distinct colour so hierarchy reads at a glance:
+ *   headings -> coral/red/purple gradient
+ *   bold     -> amber-orange
+ *   italic   -> orchid pink
+ *   paragraph-> neutral warm grey
+ *   link     -> cyan-blue
  */
 
 :root {
-  /* Primary colors - Gold accent */
-  --color-primary: #d4af37;
-  --color-primary-hover: #b8912e;
-  --color-primary-gradient: linear-gradient(135deg, #d4af37 0%, #b8912e 100%);
+  /* Primary colors - Coral-red accent */
+  --color-primary: #fb7185;
+  --color-primary-hover: #f43f5e;
+  --color-primary-gradient: linear-gradient(135deg, #fb7185 0%, #ec4899 100%);
 
-  /* Secondary colors - Sage accent */
-  --color-secondary: #9caf88;
-  --color-secondary-hover: #7d8f6b;
+  /* Secondary colors - Teal accent */
+  --color-secondary: #22d3ee;
+  --color-secondary-hover: #0891b2;
 
-  /* Background colors - Rich espresso-black */
-  --color-background: #0d1117;
-  --color-background-gradient: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%);
+  /* Background colors - Charcoal-night */
+  --color-background: #0e0f12;
+  --color-background-gradient: linear-gradient(135deg, #0e0f12 0%, #17191c 50%, #0e0f12 100%);
 
   /* Text colors */
-  --color-text: #f0e6d2;
+  --color-text: #eaeaea;
   --color-text-muted: #8a8f98;
 
   /* Typography roles */
-  --color-heading-gradient: linear-gradient(115deg, #d4af37 0%, #c9a227 45%, #9caf88 100%);
-  --color-heading-solid: #e8c547;
-  --color-strong: #e8c547;
-  --color-emphasis: #9caf88;
-  --color-paragraph: #c9c5bb;
-  --color-link: #7dd3fc;
-  --color-link-hover: #bae6fd;
+  --color-heading-gradient: linear-gradient(115deg, #fb7185 0%, #ec4899 45%, #38bdf8 100%);
+  --color-heading-solid: #fda4af;
+  --color-strong: #fbbf24;
+  --color-emphasis: #e879f9;
+  --color-paragraph: #c4c4c4;
+  --color-link: #67e8f9;
+  --color-link-hover: #93c5fd;
 
   /* Typography element overrides */
   --ezw-heading-color: var(--color-heading-gradient);
@@ -48,61 +48,61 @@
   --ezw-link-hover-color: var(--color-link-hover);
 
   /* Sidebar colors */
-  --color-sidebar-bg: #161b22;
-  --color-sidebar-text: #f0e6d2;
-  --color-sidebar-hover: #21262d;
-  --color-sidebar-active: #2d333b;
+  --color-sidebar-bg: #17191c;
+  --color-sidebar-text: #eaeaea;
+  --color-sidebar-hover: #232328;
+  --color-sidebar-active: #2d2f34;
 
   /* Code block colors */
-  --color-code-bg: #161b22;
-  --color-code-text: #f0e6d2;
+  --color-code-bg: #17191c;
+  --color-code-text: #eaeaea;
   --color-code-muted: #8a8f98;
 
   /* Border colors */
-  --color-border: #21262d;
+  --color-border: #232328;
 
   /* Premium extras */
-  --color-accent: #d4af37;
-  --color-accent-sage: #9caf88;
-  --color-accent-sky: #7dd3fc;
-  --color-surface: #161b22;
-  --color-surface-elevated: #21262d;
-  --color-glow: 0 0 20px rgba(212, 175, 55, 0.22);
+  --color-accent: #fb7185;
+  --color-accent-teal: #22d3ee;
+  --color-accent-cyan: #67e8f9;
+  --color-surface: #17191c;
+  --color-surface-elevated: #232328;
+  --color-glow: 0 0 20px rgba(251, 113, 133, 0.22);
   --color-radius: 12px;
   --color-radius-card: 16px;
 }
 
 .dark {
-  --color-primary: #d4af37;
-  --color-primary-hover: #b8912e;
-  --color-primary-gradient: linear-gradient(135deg, #d4af37 0%, #b8912e 100%);
-  --color-secondary: #9caf88;
-  --color-secondary-hover: #7d8f6b;
-  --color-background: #0d1117;
-  --color-background-gradient: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%);
-  --color-text: #f0e6d2;
+  --color-primary: #fb7185;
+  --color-primary-hover: #f43f5e;
+  --color-primary-gradient: linear-gradient(135deg, #fb7185 0%, #ec4899 100%);
+  --color-secondary: #22d3ee;
+  --color-secondary-hover: #0891b2;
+  --color-background: #0e0f12;
+  --color-background-gradient: linear-gradient(135deg, #0e0f12 0%, #17191c 50%, #0e0f12 100%);
+  --color-text: #eaeaea;
   --color-text-muted: #8a8f98;
-  --color-heading-gradient: linear-gradient(115deg, #d4af37 0%, #c9a227 45%, #9caf88 100%);
-  --color-heading-solid: #e8c547;
-  --color-strong: #e8c547;
-  --color-emphasis: #9caf88;
-  --color-paragraph: #c9c5bb;
-  --color-link: #7dd3fc;
-  --color-link-hover: #bae6fd;
-  --color-sidebar-bg: #161b22;
-  --color-sidebar-text: #f0e6d2;
-  --color-sidebar-hover: #21262d;
-  --color-sidebar-active: #2d333b;
-  --color-code-bg: #161b22;
-  --color-code-text: #f0e6d2;
+  --color-heading-gradient: linear-gradient(115deg, #fb7185 0%, #ec4899 45%, #38bdf8 100%);
+  --color-heading-solid: #fda4af;
+  --color-strong: #fbbf24;
+  --color-emphasis: #e879f9;
+  --color-paragraph: #c4c4c4;
+  --color-link: #67e8f9;
+  --color-link-hover: #93c5fd;
+  --color-sidebar-bg: #17191c;
+  --color-sidebar-text: #eaeaea;
+  --color-sidebar-hover: #232328;
+  --color-sidebar-active: #2d2f34;
+  --color-code-bg: #17191c;
+  --color-code-text: #eaeaea;
   --color-code-muted: #8a8f98;
-  --color-border: #21262d;
-  --color-accent: #d4af37;
-  --color-accent-sage: #9caf88;
-  --color-accent-sky: #7dd3fc;
-  --color-surface: #161b22;
-  --color-surface-elevated: #21262d;
-  --color-glow: 0 0 20px rgba(212, 175, 55, 0.22);
+  --color-border: #232328;
+  --color-accent: #fb7185;
+  --color-accent-teal: #22d3ee;
+  --color-accent-cyan: #67e8f9;
+  --color-surface: #17191c;
+  --color-surface-elevated: #232328;
+  --color-glow: 0 0 20px rgba(251, 113, 133, 0.22);
 }
 
 /* Headings: gradient text */
@@ -119,14 +119,14 @@
   text-decoration: none;
 }
 
-/* Bold: gold */
+/* Bold: amber-orange */
 .ezw-prose strong,
 .ezw-prose b {
   color: var(--ezw-strong-color);
   font-weight: 700;
 }
 
-/* Italic: sage green */
+/* Italic: orchid pink */
 .ezw-prose em,
 .ezw-prose i {
   color: var(--ezw-emphasis-color);
@@ -143,13 +143,13 @@
   font-style: italic;
 }
 
-/* Paragraphs and list copy: warm ivory */
+/* Paragraphs and list copy: neutral warm grey */
 .ezw-prose p,
 .ezw-prose li {
   color: var(--ezw-paragraph-color);
 }
 
-/* Links: sky blue, underlined on hover only */
+/* Links: cyan-blue, underlined on hover only */
 .ezw-prose a {
   color: var(--ezw-link-color);
   text-decoration: none;
