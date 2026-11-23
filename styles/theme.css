@@ -1,42 +1,42 @@
 /**
  * Theme CSS Custom Properties
- * Premium professional palette, GitHub-dark derived neutrals
- * Font: Rubik (headings) + Roboto Mono (body)
+ * Premium modern professional UI/UX palette with gradients
+ * Font: Quicksand (Bold & Regular) for everything
  *
  * Typography roles each own a distinct colour so hierarchy reads at a glance:
- *   headings  -> teal/sky/indigo gradient
- *   bold      -> amber
- *   italic    -> violet
- *   paragraph -> neutral body grey
- *   link      -> blue
+ *   headings -> coral/gold/indigo gradient
+ *   bold     -> amber
+ *   italic   -> violet
+ *   paragraph-> neutral body grey
+ *   link     -> blue
  */
 
 :root {
-  /* Primary colors - Teal accent */
-  --color-primary: #2dd4bf;
-  --color-primary-hover: #14b8a6;
-  --color-primary-gradient: linear-gradient(135deg, #2dd4bf 0%, #38bdf8 100%);
+  /* Primary colors - Coral accent */
+  --color-primary: #f97316;
+  --color-primary-hover: #ea580c;
+  --color-primary-gradient: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
 
-  /* Secondary colors - Indigo accent */
-  --color-secondary: #818cf8;
-  --color-secondary-hover: #6366f1;
+  /* Secondary colors - Rose accent */
+  --color-secondary: #f472b6;
+  --color-secondary-hover: #ec4899;
 
-  /* Background colors - Graphite */
-  --color-background: #0d1117;
-  --color-background-gradient: linear-gradient(135deg, #0d1117 0%, #10161f 50%, #0d1117 100%);
+  /* Background colors - Slate warm dark */
+  --color-background: #0f172a;
+  --color-background-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
 
   /* Text colors */
-  --color-text: #e6edf3;
-  --color-text-muted: #8b949e;
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
 
   /* Typography roles */
-  --color-heading-gradient: linear-gradient(115deg, #2dd4bf 0%, #38bdf8 48%, #818cf8 100%);
-  --color-heading-solid: #5eead4;
+  --color-heading-gradient: linear-gradient(115deg, #f97316 0%, #fb923c 48%, #818cf8 100%);
+  --color-heading-solid: #fdba74;
   --color-strong: #fbbf24;
   --color-emphasis: #c084fc;
-  --color-paragraph: #c9d1d9;
-  --color-link: #58a6ff;
-  --color-link-hover: #79c0ff;
+  --color-paragraph: #cbd5e1;
+  --color-link: #60a5fa;
+  --color-link-hover: #93c5fd;
 
   /* Typography element overrides */
   --ezw-heading-color: var(--color-heading-gradient);
@@ -48,61 +48,61 @@
   --ezw-link-hover-color: var(--color-link-hover);
 
   /* Sidebar colors */
-  --color-sidebar-bg: #161b22;
-  --color-sidebar-text: #e6edf3;
-  --color-sidebar-hover: #1c2330;
-  --color-sidebar-active: #262d3a;
+  --color-sidebar-bg: #1e293b;
+  --color-sidebar-text: #f1f5f9;
+  --color-sidebar-hover: #334155;
+  --color-sidebar-active: #475569;
 
   /* Code block colors */
-  --color-code-bg: #161b22;
-  --color-code-text: #e6edf3;
-  --color-code-muted: #8b949e;
+  --color-code-bg: #1e293b;
+  --color-code-text: #f1f5f9;
+  --color-code-muted: #94a3b8;
 
   /* Border colors */
-  --color-border: #30363d;
+  --color-border: #334155;
 
   /* Premium extras */
-  --color-accent: #2dd4bf;
-  --color-accent-sky: #38bdf8;
+  --color-accent: #f97316;
+  --color-accent-coral: #fb923c;
   --color-accent-indigo: #818cf8;
-  --color-surface: #161b22;
-  --color-surface-elevated: #1c2330;
-  --color-glow: 0 0 20px rgba(45, 212, 191, 0.22);
+  --color-surface: #1e293b;
+  --color-surface-elevated: #334155;
+  --color-glow: 0 0 20px rgba(249, 115, 22, 0.22);
   --color-radius: 12px;
   --color-radius-card: 16px;
 }
 
 .dark {
-  --color-primary: #2dd4bf;
-  --color-primary-hover: #14b8a6;
-  --color-primary-gradient: linear-gradient(135deg, #2dd4bf 0%, #38bdf8 100%);
-  --color-secondary: #818cf8;
-  --color-secondary-hover: #6366f1;
-  --color-background: #0d1117;
-  --color-background-gradient: linear-gradient(135deg, #0d1117 0%, #10161f 50%, #0d1117 100%);
-  --color-text: #e6edf3;
-  --color-text-muted: #8b949e;
-  --color-heading-gradient: linear-gradient(115deg, #2dd4bf 0%, #38bdf8 48%, #818cf8 100%);
-  --color-heading-solid: #5eead4;
+  --color-primary: #f97316;
+  --color-primary-hover: #ea580c;
+  --color-primary-gradient: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  --color-secondary: #f472b6;
+  --color-secondary-hover: #ec4899;
+  --color-background: #0f172a;
+  --color-background-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+  --color-heading-gradient: linear-gradient(115deg, #f97316 0%, #fb923c 48%, #818cf8 100%);
+  --color-heading-solid: #fdba74;
   --color-strong: #fbbf24;
   --color-emphasis: #c084fc;
-  --color-paragraph: #c9d1d9;
-  --color-link: #58a6ff;
-  --color-link-hover: #79c0ff;
-  --color-sidebar-bg: #161b22;
-  --color-sidebar-text: #e6edf3;
-  --color-sidebar-hover: #1c2330;
-  --color-sidebar-active: #262d3a;
-  --color-code-bg: #161b22;
-  --color-code-text: #e6edf3;
-  --color-code-muted: #8b949e;
-  --color-border: #30363d;
-  --color-accent: #2dd4bf;
-  --color-accent-sky: #38bdf8;
+  --color-paragraph: #cbd5e1;
+  --color-link: #60a5fa;
+  --color-link-hover: #93c5fd;
+  --color-sidebar-bg: #1e293b;
+  --color-sidebar-text: #f1f5f9;
+  --color-sidebar-hover: #334155;
+  --color-sidebar-active: #475569;
+  --color-code-bg: #1e293b;
+  --color-code-text: #f1f5f9;
+  --color-code-muted: #94a3b8;
+  --color-border: #334155;
+  --color-accent: #f97316;
+  --color-accent-coral: #fb923c;
   --color-accent-indigo: #818cf8;
-  --color-surface: #161b22;
-  --color-surface-elevated: #1c2330;
-  --color-glow: 0 0 20px rgba(45, 212, 191, 0.22);
+  --color-surface: #1e293b;
+  --color-surface-elevated: #334155;
+  --color-glow: 0 0 20px rgba(249, 115, 22, 0.22);
 }
 
 /* Headings: gradient text */
@@ -133,7 +133,7 @@
   font-style: italic;
 }
 
-/* Bold + italic together: keep the italic hue, raise the weight */
+/* Bold + italic together */
 .ezw-prose strong em,
 .ezw-prose em strong,
 .ezw-prose b i,

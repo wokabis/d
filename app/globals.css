@@ -16,13 +16,13 @@
  */
 
 body {
-  /* Rubik & Roboto Mono */
+  /* Quicksand (Bold & Regular) for everything */
   font-family:
-    'Roboto Mono',
-    ui-monospace,
-    SFMono-Regular,
-    Menlo,
-    monospace;
+    'Quicksand',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
   color: var(--color-text);
   background: var(--color-background);
   -webkit-overflow-scrolling: touch;
@@ -31,8 +31,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
   letter-spacing: -0.01em;
 }
 
